@@ -1,0 +1,126 @@
+<head>
+    <title>Travel Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="travel_css.css"/>
+    <link rel="icon" href="wanderlust-travels-high-resolution-logo.png">
+</head>
+<body>
+    <div id="title_bar">0
+            <img src="wanderlust-travels-high-resolution-logo.png" alt="Travel Icon" style="height: 120px; margin-right: 20px; vertical-align: middle;" />
+            <a href="travel_html.html">HOME</a>
+            <a href="contact.html">CONTACT US</a>
+            <a href="about.html"> ABOUT</a>
+    </div>
+    <form id="booking_form">
+        <h1>AVAIL YOUR SLOTS</h1>
+        <br>
+        <label for="check-in">Check-in</label>
+        <input id="check-in" type="date" name="check-in" required>
+        <label for="check-out">Check-out:</label>
+        <input type="date" id="check-out" name="check-out" required>
+        
+        <label for="adults">Adults:</label>
+        <select id="adults" name="adults" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        
+        <label for="children">Children:</label>
+        <select id="children" name="children" required>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <div id="hotel_images_background">
+        <div id="hotel_images">
+            <div style="display: flex; align-items: center; margin: 20px;">
+                <a href="link1.html">
+                    <img src="p1.jpg" alt="Hotel Image 2" style="width: 500px; height: 250px; margin-right: 20px; border-radius: 10px;" />
+                </a>
+                <div>
+                    <h3>Centara Ras Fushi Resort & Spa</h3>
+                    <p style="font-size: 14px;">Rating: ★★★☆☆</p>
+                    <p style="font-size: 14px;">Benefits: spa, free parking</p>
+                    <a href="link1.html" style="display: inline-block; background-color: yellow; color: black; padding: 10px 20px; border-radius: 10px; text-decoration: none;">View Deals</a>
+                </div>
+            </div>
+            <div style="display: flex; align-items: center; margin: 20px;">
+                <a href="link2.html">
+                    <img src="p2.jpg" alt="Hotel Image 2" style="width: 500px; height: 250px; margin-right: 20px; border-radius: 10px;" />
+                </a>
+                <div>
+                    <h3>Sun Siyam Vilu Reef</h3>
+                    <p style="font-size: 14px;">Rating: ★★★☆☆</p>
+                    <p style="font-size: 14px;">Benefits: spa, free parking</p>
+                    <a href="link2.html" style="display: inline-block; background-color: yellow; color: black; padding: 10px 20px; border-radius: 10px; text-decoration: none;">View Deals</a>
+                </div>
+            </div>
+    
+            <div style="display: flex; align-items: center; margin: 20px;">
+                <a href="link3.html">
+                    <img src="p3.jpg" alt="Hotel Image 3" style="width: 500px; height: 250px; margin-right: 20px; border-radius: 10px;" />
+                </a>
+                <div>
+                    <h3>Villa Nautica</h3>
+                    <p style="font-size: 14px;">Rating: ★★★★★</p>
+                    <p style="font-size: 14px;">Benefits: beach access, restaurant</p>
+                    <a href="link3.html" style="display: inline-block; background-color: yellow; color: black; padding: 10px 20px; border-radius: 10px; text-decoration: none;">View Deals</a>
+                </div>
+            </div>
+    
+            <div style="display: flex; align-items: center; margin: 20px;">
+                <a href="link4.html">
+                    <img src="p4.jpg" alt="Hotel Image 4" style="width: 500px; height: 250px; margin-right: 20px; border-radius: 10px;" />
+                </a>
+                <div>
+                    <h3>Sun Siyam Iru Fushi</h3>
+                    <p style="font-size: 14px;">Rating: ★★★★☆</p>
+                    <p style="font-size: 14px;">Benefits: city view, free Wi-Fi</p>
+                    <a href="link4.html" style="display: inline-block; background-color: yellow; color: black; padding: 10px 20px; border-radius: 10px; text-decoration: none;">View Deals</a>
+                </div>
+            </div>
+    
+            <div style="display: flex; align-items: center; margin: 20px;">
+                <a href="link5.html">
+                    <img src="p5.jpg" alt="Hotel Image 5" style="width: 500px; height: 250px; margin-right: 20px; border-radius: 10px;" />
+                </a>
+                <div>
+                    <h3>Siyam World</h3>
+                    <p style="font-size: 14px;">Rating: ★★★☆☆</p>
+                    <p style="font-size: 14px;">Benefits: pet-friendly, garden</p>
+                    <a href="link5.html" style="display: inline-block; background-color: yellow; color: black; padding: 10px 20px; border-radius: 10px; text-decoration: none;">View Deals</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="fixedbox">
+        <h2 style="font-family: 'Courier New', Courier, monospace;text-align: center;">BOOK NOW!</h2>
+        <form style="text-align: center;padding: 20px;">
+            <label for="name"  style="font-size: 14px;">Name:</label>
+            <input type="text" id="name" name="name" placeholder="name" required>
+            <br>
+            <br>
+            <label for="email" style="font-size: 14px;">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email" required>
+            <br>
+            <br>
+            <label for="mobile_number" style="font-size: 14px;">Number:</label>
+            <input type="tel" id="mobile_number" name="mobile_number" placeholder="mobile number" required>
+            <br>
+            <br>
+            <br>
+            <label for="submit" style="font-size: 20px; background-color: black; color: yellowgreen;"></label>
+            <input id="submit" name="submit" type="submit" value="Submit">
+        </form>
+    </div>
+    <
+</body>    
